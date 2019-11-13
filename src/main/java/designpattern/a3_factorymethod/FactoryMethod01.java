@@ -2,6 +2,7 @@ package designpattern.a3_factorymethod;
 
 /**
  * 工厂方法
+ * @author yc
  */
 public class FactoryMethod01 {
     /**
@@ -32,7 +33,7 @@ public class FactoryMethod01 {
     /**
      * 抽象工厂
      */
-    public static interface AbstractFactory{
+    public interface AbstractFactory{
         public Product newProduct();
     }
 
